@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Functionality for all buttons
-    document.querySelector(".hire-me").addEventListener("click", function () {
-        alert("Thank you for your interest! Please contact me via email.");
-    });
+    // document.querySelector(".hire-me").addEventListener("click", function () {
+    //     alert("Thank you for your interest! Please contact me via email.");
+    // });
 
     document.querySelector(".portfolio-btn").addEventListener("click", function () {
         window.location.href = "#portfolio"; // Change to actual portfolio section
@@ -35,4 +35,6 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "#blog"; // Change to actual blog section
     });
 });
+
+
 

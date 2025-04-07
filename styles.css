@@ -356,16 +356,19 @@ nav ul li:hover {
     background-color: #4cae4c;
 }
 
-/* Responsive */
+/* ---------- RESPONSIVE ---------- */
+
+/* Tablets - 2 columns */
 @media (max-width: 1024px) {
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
+/* Mobile - 3 columns (2 rows if 6 items) */
 @media (max-width: 768px) {
     .skills-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -693,3 +696,32 @@ form button:hover {
     background: #218838;
 }
 
+header {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+  }
+  
+  header h1 {
+    font-size: 2.8rem;
+    color: #161a19;
+    font-weight: 800;
+    text-shadow: 0 0 10px #00ffe7, 0 0 20px #ffb700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  header h1 i {
+    color: #1ab689;
+    font-size: 2.5rem;
+    text-shadow: 0 0 5px #00ffe7;
+  }
+  

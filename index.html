@@ -16,7 +16,7 @@
 
     <div class="toggle-btn" id="toggle-btn">☰</div>
     <div class="container">
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
         <div class="profile">
             <img src="Profile picture1.jpg" alt="Profile">
             <h2>Aryan Anand</h2>
@@ -218,16 +218,16 @@ In addition to development, I write blogs and articles on recent tech stacks, in
 
 
     <section id="blog" class="blog">
-        <div class="blog-container">
+        <div class="blog-container" id="blog-container">
             <h2><span class="border-line"></span> Latest Blog Posts</h2>
     
-            <div class="blog-grid">
-                <div class="blog-post">
+            <div class="blog-grid" >
+                <div class="blog-post" >
                     <img src="trick.png" alt="trick">
                     <div class="blog-info">
                         <h4><strong>The Trick for Left and Right Shift Operations</strong></h4>
                         <p>Hey Everyone! Look What I Learned and Recognized While Revisiting Java Concepts....</p>
-                        <a href="#" class="read-more">Read more →</a>
+                        <a href="blogs.html" class="read-more" data-id="1">Read more →</a>
                         <p class="publish-date">Published 2 days ago</p>
                     </div>
                 </div>
@@ -237,7 +237,7 @@ In addition to development, I write blogs and articles on recent tech stacks, in
                     <div class="blog-info">
                         <h4><strong>Why Do We Need Java?</strong></h4>
                         <p>We already have C, a procedural language, and C++, an object-oriented language, so why was there a need for yet another language like Java? To answer this, let’s dive into the history of programming and how Java became essential....</p>
-                        <a href="#" class="read-more">Read more →</a>
+                        <a href="blogs.html" class="read-more" data-id="2">Read more →</a>
                         <p class="publish-date">Published a week ago</p>
                     </div>
                 </div>
@@ -247,7 +247,7 @@ In addition to development, I write blogs and articles on recent tech stacks, in
                     <div class="blog-info">
                         <h4><strong>Why Your Resume Deserves Time and Effort</strong></h4>
                         <p>Today, I want to talk about one of the most important aspects of our graduation – the Resume...</p>
-                        <a href="#" class="read-more">Read more →</a>
+                        <a href="blogs.html" class="read-more" data-id="3">Read more →</a>
                         <p class="publish-date">Published 3 weeks ago</p>
                     </div>
                 </div>
@@ -285,6 +285,7 @@ In addition to development, I write blogs and articles on recent tech stacks, in
 </div>
 
 
+<script src="blogs.js"></script>
 
 <script src="contact.js"></script>
 

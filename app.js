@@ -23,15 +23,16 @@ document.addEventListener("DOMContentLoaded", function () {
     // });
 
     document.querySelector(".portfolio-btn").addEventListener("click", function () {
-        window.location.href = "#portfolio"; // Change to actual portfolio section
+        window.location.href = "portfolio.html"; // Change to actual portfolio section
     });
 
-    document.querySelector(".resume-btn").addEventListener("click", function () {
-        window.location.href = "resume.pdf"; // Change to actual resume file
-    });
+    
+    document.querySelector(".projects-button").addEventListener("click", function () {
+      window.location.href = "portfolio.html"; // Change to actual portfolio section
+  });
 
     document.querySelector(".services-btn").addEventListener("click", function () {
-        window.location.href = "#skills"; // Change to actual services section
+        window.location.href = "services.html"; // Change to actual services section
     });
 
     document.querySelector(".blog-btn").addEventListener("click", function () {
@@ -72,5 +73,17 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
+
+document.querySelectorAll('.view-price-btn').forEach(priceBtn => {
+  priceBtn.addEventListener('click', () => {
+    const targetId = priceBtn.getAttribute('data-target');
+    const section = document.getElementById(targetId);
+
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
 
 

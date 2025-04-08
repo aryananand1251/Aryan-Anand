@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services & Pricing</title>
+  <link rel="stylesheet" href="services.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1><i class="fas fa-tools"></i> Our Services & Pricing</h1>
+    <p>Your ideas, our execution.</p>
+  </header>
+
+  <section class="services-section">
+    <div class="service-card">
+      <img src="web.png" alt="Web Development">
+      <h2>Website Development</h2>
+      <p>We build stunning and responsive websites tailored to your brand identity.</p>
+      <ul>
+        <li>Portfolio, Business, E-commerce</li>
+        <li>Includes hosting & SEO basics</li>
+      </ul>
+      <div class="view-price-btn" data-target="web">💰 View Pricing</div>
+    </div>
+
+    <div class="service-card">
+      <img src="andr.png" alt="Android Development">
+      <h2>Android Applications</h2>
+      <p>We create powerful and scalable Android apps with intuitive UI.</p>
+      <ul>
+        <li>Native & cross-platform support</li>
+        <li>From design to deployment</li>
+      </ul>
+      <div class="view-price-btn" data-target="app">💰 View Pricing</div>
+    </div>
+
+    <div class="service-card">
+      <img src="backend.png" alt="Backend Development">
+      <h2>Backend Services</h2>
+      <p>High-performance backend systems using Spring boot,Java, Rest API etc.</p>
+      <ul>
+        <li>API development</li>
+        <li>Database integration</li>
+      </ul>
+      <div class="view-price-btn" data-target="backend">💰 View Pricing</div>
+    </div>
+
+
+      
+      <div class="service-card">
+        <img src="front.png" alt="Frontend Development">
+        <h2>Frontend Services</h2>
+        <p>We craft responsive and interactive UI for web and mobile platforms using HTML, CSS, React, and XML.</p>
+        <ul>
+          <li>UI Design for Android using XML</li>
+          <li>Web UI using HTML, CSS & React</li>
+          <li>Pixel-perfect & mobile-first design</li>
+        </ul>
+        <div class="view-price-btn" data-target="frontend">💰 View Pricing</div>
+      </div>
+      
+      
+    
+
+    <div class="service-card">
+      <img src="ctmp.png" alt="Code Templates">
+      <h2>Code Templates</h2>
+      <p>Ready-to-use professional code templates for projects and practice.</p>
+      <ul>
+        <li>Portfolio, login systems, blogs</li>
+        <li>Easy integration</li>
+      </ul>
+      <div class="view-price-btn" data-target="template">💰 View Pricing</div>
+    </div>
+  </section>
+  <div class="toggle-container">
+    <label class="toggle-label">View Prices for:</label>
+    <select id="pricingToggle">
+      <option value="india">India 🇮🇳</option>
+      <option value="international">International 🌍</option>
+    </select>
+  </div>
+  
+  <!-- Example: Website Development -->
+  <section class="pricing-section" id="web">
+    <h2 class="section-title">💻 Website Development Pricing</h2>
+    <table class="pricing-table">
+      <thead>
+        <tr>
+          <th>Project Stage</th>
+          <th>Basic<br><span class="price" data-india="₹3,000" data-international="$80">₹3,000</span></th>
+          <th>Standard<br><span class="price" data-india="₹8,000" data-international="$200">₹8,000</span></th>
+          <th>Premium<br><span class="price" data-india="₹15,000+" data-international="$400+">$180+</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Requirement Gathering</td>
+          <td>✓ Basic discussion</td>
+          <td>✓ 1-hour consult</td>
+          <td>✓ Deep dive + branding input</td>
+        </tr>
+        <tr>
+          <td>UI/UX Design</td>
+          <td>✓ Basic layout</td>
+          <td>✓ Custom wireframes</td>
+          <td>✓ Premium design + revisions</td>
+        </tr>
+        <tr>
+          <td>Frontend Development</td>
+          <td>✓ 1–3 pages</td>
+          <td>✓ Up to 5 pages</td>
+          <td>✓ Unlimited pages + animation</td>
+        </tr>
+        <tr>
+          <td>Backend Integration</td>
+          <td>✗</td>
+          <td>✓ Contact form</td>
+          <td>✓ Full CMS/Admin Panel</td>
+        </tr>
+        <tr>
+          <td>Testing & Deployment</td>
+          <td>✓ Basic testing</td>
+          <td>✓ Bug fix</td>
+          <td>✓ Full QA + support</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <!-- 📱 Android App Development -->
+<section class="pricing-section" id ="app">
+  <h2 class="section-title">📱 Android App Development</h2>
+  <table class="pricing-table">
+    <thead>
+      <tr>
+        <th>Project Stage</th>
+        <th>Basic<br><span class="price" data-india="₹4,000" data-international="$100">₹4,000</span></th>
+        <th>Standard<br><span class="price" data-india="₹10,000" data-international="$300">₹10,000</span></th>
+        <th>Premium<br><span class="price" data-india="₹20,000+" data-international="$500+">₹20,000+</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mockups & UI</td>
+        <td>✓ Simple screens</td>
+        <td>✓ Custom layout</td>
+        <td>✓ Full UI + animations</td>
+      </tr>
+      <tr>
+        <td>Core Features</td>
+        <td>✓ Basic logic</td>
+        <td>✓ Multi-screens</td>
+        <td>✓ Advanced features</td>
+      </tr>
+      <tr>
+        <td>Backend API</td>
+        <td>✗</td>
+        <td>✓ Simple API</td>
+        <td>✓ Full API + auth</td>
+      </tr>
+      <tr>
+        <td>Testing & Debug</td>
+        <td>✓ Manual</td>
+        <td>✓ Functional test</td>
+        <td>✓ QA + crash fix</td>
+      </tr>
+      <tr>
+        <td>Play Store</td>
+        <td>✗</td>
+        <td>✓ Submission</td>
+        <td>✓ Full optimization</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- 🛠️ Backend Services -->
+<section class="pricing-section" id ="backend">
+  <h2 class="section-title">🛠️ Backend Services</h2>
+  <table class="pricing-table">
+    <thead>
+      <tr>
+        <th>Service</th>
+        <th>Basic<br><span class="price" data-india="₹6,000" data-international="$150">₹3,000</span></th>
+        <th>Standard<br><span class="price" data-india="₹9,000" data-international="$200">₹7,000</span></th>
+        <th>Premium<br><span class="price" data-india="₹16,000+" data-international="$350+">₹12,000+</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>API Dev</td>
+        <td>✓ 1–2 APIs</td>
+        <td>✓ CRUD APIs</td>
+        <td>✓ Scalable backend</td>
+      </tr>
+      <tr>
+        <td>Database</td>
+        <td>✓ Simple</td>
+        <td>✓ Relational</td>
+        <td>✓ Optimized + secure</td>
+      </tr>
+      <tr>
+        <td>Authentication</td>
+        <td>✗</td>
+        <td>✓ Basic login</td>
+        <td>✓ JWT/Auth0</td>
+      </tr>
+      <tr>
+        <td>Deployment</td>
+        <td>✗</td>
+        <td>✓ Shared hosting</td>
+        <td>✓ VPS / CI-CD</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="pricing-section" id="frontend">
+  <h2 class="section-title">🎨 Frontend Development Pricing</h2>
+  <table class="pricing-table">
+    <thead>
+      <tr>
+        <th>Project Stage</th>
+        <th>Basic<br><span class="price" data-india="₹2500" data-international="$80">₹3,000</span></th>
+        <th>Standard<br><span class="price" data-india="₹6,000" data-international="$200">₹7,000</span></th>
+        <th>Premium<br><span class="price" data-india="₹12,000+" data-international="$350+">₹12,000+</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>UI Setup</td>
+        <td>✓ Basic HTML/CSS</td>
+        <td>✓ Responsive Design</td>
+        <td>✓ Custom Animation & Grid</td>
+      </tr>
+      <tr>
+        <td>Frameworks</td>
+        <td>✗</td>
+        <td>✓ Bootstrap/Material UI</td>
+        <td>✓ React/Vue with Components</td>
+      </tr>
+      <tr>
+        <td>Pages Included</td>
+        <td>✓ Up to 3 pages</td>
+        <td>✓ Up to 5 pages</td>
+        <td>✓ Unlimited pages</td>
+      </tr>
+      <tr>
+        <td>Performance</td>
+        <td>✓ Basic Speed</td>
+        <td>✓ Optimized Assets</td>
+        <td>✓ Lazy Load + Lighthouse 90+</td>
+      </tr>
+      <tr>
+        <td>Cross-Browser Support</td>
+        <td>✗</td>
+        <td>✓ Standard Browsers</td>
+        <td>✓ All Major Browsers</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
+<!-- 🧩 Code Templates -->
+<section class="pricing-section" id="template">
+  <h2 class="section-title">🧩 Code Templates</h2>
+  <table class="pricing-table">
+    <thead>
+      <tr>
+        <th>Template</th>
+        <th>Basic<br><span class="price" data-india="₹500" data-international="$30">₹500</span></th>
+        <th>Standard<br><span class="price" data-india="₹2,000" data-international="$60">₹2,000</span></th>
+        <th>Premium<br><span class="price" data-india="₹5,000+" data-international="$150+">₹5,000+</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Design</td>
+        <td>✓ Simple UI</td>
+        <td>✓ Clean layout</td>
+        <td>✓ Premium style</td>
+      </tr>
+      <tr>
+        <td>Features</td>
+        <td>✓ Basic logic</td>
+        <td>✓ CRUD + validation</td>
+        <td>✓ Full-featured</td>
+      </tr>
+      <tr>
+        <td>Customization</td>
+        <td>✗</td>
+        <td>✓ Small edits</td>
+        <td>✓ Branded template</td>
+      </tr>
+      <tr>
+        <td>Docs</td>
+        <td>✗</td>
+        <td>✓ Setup guide</td>
+        <td>✓ Full documentation</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
+
+
+
+
+  
+
+  <section class="contact-section">
+    <h2>Contact Us for Services or Enquiries</h2>
+    <p>Let’s get your project started. We respond within 24 hours.</p>
+    <!-- <a  class="contact-btn"><i class="fas fa-envelope"></i> Get in Touch</a> -->
+    <button class="contact-btn" ><i class="fas fa-envelope"></i> Get in Touch</button>
+
+
+   
+   
+
+  </section>
+
+  <div id="contactForm" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" id="closeForm">&times;</span>
+        <h2>Contact Me</h2>
+        <form
+        action="https://formspree.io/f/xvgkvydy"
+        method="POST"
+      >
+      <label>
+        Your name:
+        <input type="text" name="name">
+      </label>
+        <label>
+          Your email:
+          <input type="email" name="email">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        
+        <button type="submit">Send</button>
+      </form>
+    </div>
+</div>
+  <script src="contact.js"></script>
+  <script src="app.js"></script>
+  <script>
+    const toggle = document.getElementById("pricingToggle");
+    const prices = document.querySelectorAll(".price");
+  
+    toggle.addEventListener("change", () => {
+  const mode = toggle.value;
+  prices.forEach(span => {
+    span.textContent = span.dataset[mode];
+    // span.style.color = mode === "india" ? " #f0f8ff" : " #f0f8ff"; 
+  });
+
+  
+
+});
+
+  </script>
+  
+  
+
+</body>
+</html>
